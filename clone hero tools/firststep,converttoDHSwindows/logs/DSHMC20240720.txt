@@ -1,0 +1,11 @@
+2024-07-20 00:01:31.991 -04:00 [INF] Checking for new version, current version is 2.2.282.0
+2024-07-20 00:01:32.016 -04:00 [INF] Checking for updates, preparing web request
+2024-07-20 00:01:32.726 -04:00 [DBG] Found 15 release(s)
+2024-07-20 00:01:32.727 -04:00 [DBG] Latest tag name: setup-v3.0.4
+2024-07-20 00:01:32.727 -04:00 [DBG] Stripped tag name: etup-v3.0.4
+2024-07-20 00:01:32.747 -04:00 [ERR] Updated check failed: System.FormatException: Input string was not in a correct format.
+   at System.Version.VersionResult.SetFailure(ParseFailureKind failure, String argument)
+   at System.Version.TryParseComponent(String component, String componentName, VersionResult& result, Int32& parsedComponent)
+   at System.Version.TryParseVersion(String version, VersionResult& result)
+   at System.Version.Parse(String input)
+   at Nefarius.DsHidMini.Util.Web.Updater.get_IsUpdateAvailable() in C:\projects\dshidmini\DSHMC\Util\Web\Updater.cs:line 76

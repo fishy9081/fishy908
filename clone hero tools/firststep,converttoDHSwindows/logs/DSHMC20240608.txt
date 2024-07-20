@@ -1,0 +1,6 @@
+2024-06-08 02:54:59.483 -04:00 [INF] Checking for new version, current version is 2.2.282.0
+2024-06-08 02:54:59.508 -04:00 [INF] Checking for updates, preparing web request
+2024-06-08 02:55:00.152 -04:00 [DBG] Found 13 release(s)
+2024-06-08 02:55:00.152 -04:00 [DBG] Latest tag name: v2.2.282.0
+2024-06-08 02:55:00.152 -04:00 [DBG] Stripped tag name: 2.2.282.0
+2024-06-08 02:55:00.153 -04:00 [DBG] Tag to version conversion: 2.2.282.0
